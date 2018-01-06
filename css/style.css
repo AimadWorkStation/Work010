@@ -1,0 +1,83 @@
+/**
+ * Developped By EmadEddin Had (A.H)
+ * NextG WorkShared
+ */
+body {
+  background-color: #1c1c1c;
+}
+
+.container button {
+  background-color: #1c1c1c !important;
+}
+.container h1 {
+  color: #AF721F;
+}
+.container input {
+  font-size: 14px;
+  padding: 6px 5px;
+}
+.container input:hover, .container input:active, .container input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+}
+.container input#inputName {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.container input#inputMail {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.container ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container ul li {
+  margin: 60px 60px;
+  position: relative;
+  color: #c19e9e;
+  background-color: #ffffff12;
+  padding: 12px;
+  width: 300px;
+  border-radius: 14px;
+  font-size: 13px;
+}
+.container ul li span {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60px;
+  height: 100%;
+  width: 0px;
+  border: 2px solid #AF721F;
+}
+.container ul li span:after, .container ul li span:before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  border: 2px solid #AF721F;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #1c1c1c;
+}
+.container ul li span:after {
+  left: -7px;
+  top: 100%;
+}
+.container ul li span:before {
+  left: -6px;
+  top: -14px;
+}
+.container ul:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 0px;
+  height: 100%;
+  border: 1px dashed #AF721F;
+}
+
+/*# sourceMappingURL=style.css.map */
